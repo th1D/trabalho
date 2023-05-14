@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formualario</title>
+</head>
+<body>
+    <fieldset>
+        <form action="#">
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome" name="nome" required><br>
+            <label for="nascimento">Data de nascimento: </label>
+            <input type="date" id="datemin" name="datemin" required><br>
+            <label for="sexo">Sexo: </label>
+            <input type="radio" id="sexo" name="sexo">
+                <label for="sexo">Masc</label>
+            <input type="radio" id="sexo" name="sexo">
+                <label for="sexo">Fem</label>
+            <input type="radio" id="sexo" name="sexo">
+                <label for="sexo">Prefiro não informar</label><br>
+            <label for="endereco">Endereço: </label><br>
+            <label for="logradouro">Logradouro: </label>
+            <input type="text" id="logradouro" name="logradouro"><br>
+            <label for="bairro">Bairro: </label>
+            <input type="text" id="bairro" name="bairro"><br>
+            <label for="cidade">Cidade: </label>
+            <input type="text" id="cidade" name="cidade"><br>
+            <label for="uf">UF: </label>
+
+            <select id="uf">
+                <option value="DF" selected> DF </option>
+                <option value="GO"> GO </option>
+                <option value="SP"> SP </option>
+            </select><br>
+
+            <label for="email">Email: </label>
+            <input type="text" id="email" name="email" required><br>
+
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Enviar">
+        </form>
+
+    </fieldset>
+
+    <a href="Questionario.html">Acesse a respostas</a>
+</body>
+</html>
